@@ -3,7 +3,8 @@
   "version": "1.4.7",
   "private": true,
   "scripts": {
-    "start": "node local_server.mjs"
+    "start": "node local_server.mjs",
+    "startlocal": "node local_server.mjs"
   },
   "keywords": [
     "interregnum",
