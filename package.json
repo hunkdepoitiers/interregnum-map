@@ -1,12 +1,9 @@
 {
   "name": "interregnum-map",
   "version": "1.4.7",
-  "description": "Interactive Map for Interregnum",
-  "type": "module",
-  "main": "server.mjs",
+  "private": true,
   "scripts": {
-    "build": "echo 'Static build ready'",
-    "start": "node server.mjs"
+    "start": "node local_server.mjs"
   },
   "keywords": [
     "interregnum",

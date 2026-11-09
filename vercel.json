@@ -4,24 +4,20 @@
   "cleanUrls": true,
   "rewrites": [
     {
+      "source": "/map",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/map/:path*",
+      "destination": "/index.html"
+    },
+    {
       "source": "/map-place.json",
       "destination": "https://eu5db.com/map-place.json"
     },
     {
       "source": "/search-summaries.json",
       "destination": "https://eu5db.com/search-summaries.json"
-    },
-    {
-      "source": "/map",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/map/:match*",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/((?!data/|_astro/|favicon\\.svg).*)",
-      "destination": "/index.html"
     }
   ],
   "headers": [

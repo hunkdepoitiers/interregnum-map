@@ -1,0 +1,5 @@
+local_server.mjs
+tools
+cache
+*.png
+temp*
