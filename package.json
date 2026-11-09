@@ -1,17 +1,15 @@
 {
-  "name": "eu5db-map-clone",
+  "name": "interregnum-map",
   "version": "1.4.7",
-  "description": "Full 1-to-1 standalone clone of EU5DB Interactive Map (Europa Universalis V / Project Caesar)",
+  "description": "Interactive Map for Interregnum",
   "type": "module",
   "main": "server.mjs",
   "scripts": {
+    "build": "echo 'Static build ready'",
     "start": "node server.mjs"
   },
   "keywords": [
-    "eu5",
-    "eu5db",
-    "europa-universalis",
-    "project-caesar",
+    "interregnum",
     "map",
     "webgl"
   ],
