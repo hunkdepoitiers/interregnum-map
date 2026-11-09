@@ -1,0 +1,1 @@
+function e(e,t){let n=e.gameVersion?`v${e.gameVersion}`:e.id;return e.local?t(`mods.versionLabel`,{version:n,count:e.local.mods.length}):e.mod?t(`site.modVersion`,{mod:e.mod.name,version:n}):e.beta?t(`site.versionBeta`,{version:n}):n}function t(t,n,r){return t.id===n?r(`site.versionLatest`,{version:e(t,r)}):e(t,r)}export{t as n,e as t};

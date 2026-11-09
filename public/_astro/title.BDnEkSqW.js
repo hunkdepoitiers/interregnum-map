@@ -1,0 +1,1 @@
+import{It as e,O as t,c as n,j as r,k as i,o as a,r as o,zt as s}from"./i18n.BNHApIHh.js";var c=s(e(),1);function l(e,s=!1){let{version:l}=a(),u=(0,c.use)(n.versions()).versions.find(e=>e.id===l),d=o(),f=e&&(u?.mod?i(e,u.mod.name,d):u?.beta&&!s?t(e,u.gameVersion??u.id,d):e);(0,c.useEffect)(()=>{document.title=r(f)},[f])}export{l as t};

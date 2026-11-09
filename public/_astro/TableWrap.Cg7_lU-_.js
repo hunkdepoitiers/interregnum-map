@@ -1,0 +1,1 @@
+import{s as e}from"./i18n.BNHApIHh.js";var t=e();function n({children:e}){return(0,t.jsx)(`div`,{className:`table-wrap`,suppressHydrationWarning:!0,children:e})}export{n as t};

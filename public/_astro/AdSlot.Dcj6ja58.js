@@ -1,0 +1,1 @@
+import{It as e,r as t,s as n,zt as r}from"./i18n.BNHApIHh.js";import{i,n as a}from"./ads.DBhp8imz.js";var o=r(e(),1),s=n();function c({id:e,className:n}){let r=t();return(0,o.useEffect)(()=>i(e),[e]),(0,s.jsx)(`div`,{id:a(e),className:`ad ${n}`,"aria-label":r(`ad.label`),dangerouslySetInnerHTML:{__html:``},suppressHydrationWarning:!0})}export{c as t};

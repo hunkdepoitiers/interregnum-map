@@ -1,0 +1,1 @@
+import{l as e}from"./preload-helper.COQGF-qd.js";e.umami.script,e.umami.websiteId;function t(e,t){try{window.umami?.track(e,t)}catch{}}export{t};

@@ -1,0 +1,20 @@
+{
+  "name": "eu5db-map-clone",
+  "version": "1.4.7",
+  "description": "Full 1-to-1 standalone clone of EU5DB Interactive Map (Europa Universalis V / Project Caesar)",
+  "type": "module",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "keywords": [
+    "eu5",
+    "eu5db",
+    "europa-universalis",
+    "project-caesar",
+    "map",
+    "webgl"
+  ],
+  "author": "",
+  "license": "ISC"
+}

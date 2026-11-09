@@ -1,0 +1,1 @@
+import{r as e,s as t}from"./i18n.BNHApIHh.js";var n=t();function r({total:t,limit:r,onMore:i}){let a=e();return t<=r?null:(0,n.jsx)(`button`,{className:`show-more`,onClick:i,children:a(`list.showMore`,{count:t-r})})}export{r as t};

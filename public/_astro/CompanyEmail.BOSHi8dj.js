@@ -1,0 +1,1 @@
+import{It as e,W as t,s as n,zt as r}from"./i18n.BNHApIHh.js";var i=r(e(),1),a=n();function o(){let[e,n]=(0,i.useState)(null);return(0,i.useEffect)(()=>{let[e,r,i]=t.emailParts;n(`${e}@${r}.${i}`)},[]),e?(0,a.jsx)(`a`,{href:`mailto:${e}`,children:e}):(0,a.jsx)(`span`,{className:`muted`,"data-company-email":!0,children:`(enable JavaScript to see the address)`})}export{o as t};

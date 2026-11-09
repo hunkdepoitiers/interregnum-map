@@ -1,0 +1,1 @@
+import{c as e}from"./preload-helper.COQGF-qd.js";import{t}from"./loaders.CU0FOIaO.js";function n(){let{lang:n}=e(location.pathname);n!==`en`&&t[n]().catch(()=>void 0)}export{n as t};

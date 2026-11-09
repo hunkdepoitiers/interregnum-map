@@ -1,0 +1,1 @@
+import{s as e}from"./i18n.BNHApIHh.js";var t=e();function n({size:e=12}){return(0,t.jsx)(`svg`,{className:`fold-chevron`,width:e,height:e,viewBox:`0 0 24 24`,fill:`none`,stroke:`currentColor`,strokeWidth:`2.5`,strokeLinecap:`round`,strokeLinejoin:`round`,"aria-hidden":!0,children:(0,t.jsx)(`path`,{d:`m9 18 6-6-6-6`})})}export{n as t};

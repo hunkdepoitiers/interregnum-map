@@ -1,0 +1,1 @@
+var e=new Map;function t(t,n=`en`){let r=e.get(n);return r||e.set(n,r=new Intl.NumberFormat(n)),r.format(t)}export{t};

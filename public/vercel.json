@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/map-place.json",
+      "destination": "https://eu5db.com/map-place.json"
+    },
+    {
+      "source": "/search-summaries.json",
+      "destination": "https://eu5db.com/search-summaries.json"
+    },
+    {
+      "source": "/map",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/map/:match*",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/((?!data/|_astro/|favicon\\.svg).*)",
+      "destination": "/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ]
+    }
+  ]
+}
